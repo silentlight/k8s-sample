@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 services:
   - docker
@@ -25,4 +26,3 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
-    
